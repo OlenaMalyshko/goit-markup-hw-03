@@ -152,6 +152,7 @@ img {
 }
 .advanteges-heading {
   margin-bottom: 8px;
+  text-align: center;
 }
 .our-team {
   background-color: rgba(244, 244, 253, 1);
@@ -162,6 +163,9 @@ img {
 }
 .our-team-container {
   padding: 32px 0;
+}
+.our-team-list-item-text {
+  text-align: center;
 }
 .portfolio-list-heading,
 .advanteges-heading {
@@ -214,6 +218,10 @@ img {
   display: flex;
   gap: 24px;
 }
+.our-team-list-item{
+  width: calc((100% - 72px) / 4);
+}
+
 .our-team-list-heading {
   font-weight: 500;
   font-size: 20px;
@@ -223,7 +231,7 @@ img {
   color: #2e2f42;
   text-align: center;
   margin-bottom: 8px;
-  padding-top: 32px;
+  
 }
 .our-team-list-item-text {
   text-align: center;
