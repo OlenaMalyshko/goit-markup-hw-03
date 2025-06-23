@@ -113,6 +113,8 @@ align-items: center;
     text-align: center;
     letter-spacing: 0.02em; 
     max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 .hero-banner-button {
   font-weight: 500;
@@ -128,6 +130,8 @@ align-items: center;
 padding: 16px 32px;
 height: 56px;
 border: none;
+text-align: center;
+margin: 0 auto;
 }
 .hero-banner-button:hover {
   background-color: rgba(64, 75, 191, 1);
