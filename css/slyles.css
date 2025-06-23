@@ -147,8 +147,11 @@ img {
   display: flex;
   gap: 24px;
 }
-.advanteges-list-item .our-team-list-item {
-  width: calc((100% - 72px) / 4);
+.advanteges-list-item {
+ width: calc((100% - 72px)/4);
+}
+.our-team-list-item {
+  width: calc((100% - 72px)/4);
 }
 .advanteges-heading {
   margin-bottom: 8px;
