@@ -16,6 +16,9 @@ h1, h2, h3, h4, h5, h6, p{
 a {
   text-decoration: none;
 }
+img {
+  display: block;
+}
 .container {
   max-width:  1158px;
   padding: 0 15px;
@@ -102,13 +105,14 @@ align-items: center;
 .hero-banner {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(46, 47, 66, 1);
+  padding: 188px 0;
 }
 .hero-banner-title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em 
-
+    letter-spacing: 0.02em; 
+    max-width: 496px;
 }
 .hero-banner-button {
   font-weight: 500;
@@ -116,10 +120,14 @@ align-items: center;
   line-height: 24px;
   letter-spacing: 0.04em;
   color: rgba(255, 255, 255, 1);
-  background-color: rgba(77, 90, 229, 1);
+  background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
   border-radius: 4px;
 padding: 16px 32px;
+height: 56px;
+border: none;
 }
 .hero-banner-button:hover {
   background-color: rgba(64, 75, 191, 1);
